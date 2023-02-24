@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ĐầuTư TiệnNgay</string>
+    <string name="facebook_app_id">1195066377984969</string>
+    <string name="facebook_client_token">dafd31c7b833e336ebd74f1ee202d6c2</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">yelGoEAVNUSJXSsot8MI9BzEqxPEZkGlD6v_E</string>
+</resources>

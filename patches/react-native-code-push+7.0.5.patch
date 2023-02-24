@@ -1,0 +1,18 @@
+diff --git a/node_modules/react-native-code-push/android/codepush.gradle b/node_modules/react-native-code-push/android/codepush.gradle
+index 22be273..a16012f 100644
+--- a/node_modules/react-native-code-push/android/codepush.gradle
++++ b/node_modules/react-native-code-push/android/codepush.gradle
+@@ -18,10 +18,11 @@ void runBefore(String dependentTaskName, Task task) {
+ }
+ 
+ gradle.projectsEvaluated {
+-    android.buildTypes.each {
++    android.buildTypes.each {buildType ->
+         // to prevent incorrect long value restoration from strings.xml we need to wrap it with double quotes
+         // https://github.com/microsoft/cordova-plugin-code-push/issues/264
+-        it.resValue 'string', "CODE_PUSH_APK_BUILD_TIME", String.format("\"%d\"", System.currentTimeMillis())
++        // it.resValue 'string', "CODE_PUSH_APK_BUILD_TIME", String.format("\"%d\"", System.currentTimeMillis())
++        buildType.resValue 'string', "CODE_PUSH_APK_BUILD_TIME", String.format("\"%d\"", System.currentTimeMillis())
+     }
+     
+     android.applicationVariants.all { variant ->

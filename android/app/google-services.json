@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "393388576958",
+    "project_id": "vfc-ndt",
+    "storage_bucket": "vfc-ndt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393388576958:android:62e4cc154346641f52ceef",
+        "android_client_info": {
+          "package_name": "vn.tienngay.investor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393388576958-gfbbfm36nr6hjeghikfhbhmd98ej45nc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.tienngay.investor",
+            "certificate_hash": "9e1e5026b42fcf04177f5b2d8c7563d0e81ff267"
+          }
+        },
+        {
+          "client_id": "393388576958-plpj8516ecqi469avmmve6thpij8lb5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.tienngay.investor",
+            "certificate_hash": "674869b8f106aa3fd1209cb52826412fdfcb2dce"
+          }
+        },
+        {
+          "client_id": "393388576958-sm1fbp2f3hk82bg654ku148hemhjpdhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWIP7r6lx7MJCx882hzFRYNbRIlwsIjoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393388576958-sm1fbp2f3hk82bg654ku148hemhjpdhr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "393388576958-k2lgsl04rb0l1shibbejon5t9g8qqd0q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "vn.tienngay.investor"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
